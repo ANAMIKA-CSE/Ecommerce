@@ -41,7 +41,7 @@ const CustomerSignup = () => {
   return (
     <div className="min-h-screen flex justify-center items-center bg-black">
       <form onSubmit={handleSubmit} className="bg-white p-6 rounded shadow-md w-96 space-y-4">
-        <h2 className="text-xl font-bold text-center text-purpe-500">Customer Signup</h2>
+        <h2 className="text-xl font-bold text-center text-orange-800">Customer Signup</h2>
 
         {error && <p className="text-red-500 text-sm">{error}</p>}
 
@@ -83,7 +83,7 @@ const CustomerSignup = () => {
         />
         <button
           type="submit"
-          className="w-full bg-black hover:bg-green-500 text-white py-2 rounded"
+          className="w-full bg-orange-500 hover:bg-green-500 text-white py-2 rounded"
         >
           Sign Up
         </button>
